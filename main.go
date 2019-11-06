@@ -31,7 +31,7 @@ func hasCriteria(query url.Values, criteria string) bool {
 func handler(w http.ResponseWriter, r *http.Request) {
 	var (
 		upper   = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-		symbols = "!$%&/()=?-_{}[]*^<>.:,;\\|@#"
+		symbols = "!$&/()=?-_{}[]*^<>.:,;\\|@#"
 		numbers = "0123456789"
 		length  = 16
 	)
